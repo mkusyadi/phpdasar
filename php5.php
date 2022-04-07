@@ -9,41 +9,41 @@
 </head>
 
 <body>
+
     <?php
-$t = date("H");
+    //dari syahrul
+    $t = date('H');
 
-if ($t > "20") {
-  echo "Have a good day!";
-} else {
-echo "Have a bad day!";
-	}
-?>
-<br><br>
-<?php
-$a = "agus";
+    if ($t > '20') {
+        echo 'Have a good day!';
+    } else {
+        echo 'Have a bad day!';
+    }
+    ?>
+    <br><br>
+    <?php
+$a = 'agus';
 
-if ($a > "20") {
-  echo "Have a good day!";
-} elseif ($a == "agus") {
-    echo "Have a new day!";
+if ($a > '20') {
+    echo 'Have a good day!';
+} elseif ($a == 'agus') {
+    echo 'Have a new day!';
 } else {
-echo "Have a bad day!";
-	}
-?>
-<br><br>
-<?php  
-for ($x = 0; $x <= 100; $x+=10) {
-  echo "The number is: $x <br>";
+    echo 'Have a bad day!';
 }
-?>  
-<br><br>
-<?php  
-$colors = array("red", "green", "blue", "yellow"); 
+?>
+    <br><br>
+    <?php for ($x = 0; $x <= 100; $x += 10) {
+    echo "The number is: $x <br>";
+} ?>
+    <br><br>
+    <?php
+$colors = ['red', 'green', 'blue', 'yellow'];
 
 foreach ($colors as $value) {
-  echo "$value <br>";
+    echo "$value <br>";
 }
-?> 
+?>
 
 </body>
 
